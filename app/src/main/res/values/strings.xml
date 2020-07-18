@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Avengers</string>
+    <string name="buton1">Buton1</string>
+    <string name="blackwidow">Blackwidow</string>
+    <string name="ironman">Ironman</string>
+    <string name="captain" />
+    <string name="thor" />
+    <string name="hulk" />
+    <string name="hawkeye" />
+    <string name="antman" />
+    <string name="nebula" />
+    <string name="capmarvel" />
+    <string name="wong" />
+</resources>

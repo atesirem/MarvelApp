@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#051D32"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+
+            android:orientation="horizontal" >
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ironman"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:onClick="goToHero"
+                android:text="@string/ironman"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"
+                />
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/black_widow"
+                android:text="@string/blackwidow"
+                android:background="#180E25"
+                android:layout_margin="10dp"
+                android:onClick="goToHero"
+
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+
+            android:orientation="horizontal" >
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/captain_america"
+                android:text="@string/captain"
+                android:background="@color/colorAccent"
+                android:layout_margin="10dp"
+                android:onClick="goToHero"
+                />
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/thor"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:text="@string/thor"
+                android:background="@color/colorAccent"
+                android:layout_margin="10dp"
+                android:onClick="goToHero"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" >
+
+
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/hulk"
+                android:text="@string/hulk"
+                android:background="@color/colorAccent"
+                android:layout_margin="10dp"
+                android:onClick="goToHero"
+                />
+
+            <ImageButton
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hawkeye"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:text="@string/hawkeye"
+                android:background="@color/colorAccent"
+                android:layout_margin="10dp"
+                android:onClick="goToHero"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+
+            android:orientation="horizontal" >
+            <ImageButton
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/antman"
+                android:text="@string/antman"
+                android:background="@color/colorAccent"
+                android:layout_margin="10dp"
+                android:onClick="goToHero"
+                />
+
+            <ImageButton
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/nebula"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:text="@string/nebula"
+                android:background="@color/colorAccent"
+                android:layout_margin="10dp"
+                android:onClick="goToHero"
+
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+
+            android:orientation="horizontal" >
+            <ImageButton
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/captain_marvel"
+                android:text="@string/capmarvel"
+                android:background="@color/colorAccent"
+                android:layout_margin="10dp"
+                android:onClick="goToHero"
+                />
+
+            <ImageButton
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/wong"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:text="@string/wong"
+                android:background="@color/colorAccent"
+                android:layout_margin="10dp"
+                android:onClick="goToHero"
+
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
